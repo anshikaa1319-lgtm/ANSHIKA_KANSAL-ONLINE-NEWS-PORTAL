@@ -103,17 +103,19 @@ input {
     border-radius: 5px;
 }
 
+/* Festival cards: 3 per row using Flexbox */
 .festival-list {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    margin-top: 30px;
+    max-width: 900px;
+    margin: 30px auto 0;
 }
 
 .festival {
     background-color: white;
     width: 280px;
-    margin: 12px;
+    margin: 10px;
     padding-bottom: 20px;
     border-radius: 8px;
     overflow: hidden;
@@ -177,4 +179,28 @@ footer {
 
 footer h2 {
     color: white;
+}
+
+/* Adjust festival cards on smaller screens */
+@media (max-width: 600px) {
+    .festival-list {
+        max-width: 100%;
+    }
+
+    .festival {
+        max-width: 100%;
+    }
+
+    .hero h2 {
+        font-size: 32px;
+    }
+
+    nav a {
+        margin: 0 8px;
+    }
+
+    .culture img {
+        width: 100%;
+        min-width: 0;
+    }
 }
