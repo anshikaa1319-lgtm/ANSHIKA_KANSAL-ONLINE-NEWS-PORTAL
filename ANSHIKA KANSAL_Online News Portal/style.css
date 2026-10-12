@@ -1,0 +1,180 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fffaf3;
+    color: #30271f;
+    line-height: 1.6;
+}
+
+header {
+    text-align: center;
+    padding: 25px;
+    background-color: #fff0d9;
+}
+
+header h1, footer h2 {
+    font-size: 36px;
+    color: #d45b2a;
+}
+
+header h1 span {
+    color: #24734b;
+}
+
+nav {
+    text-align: center;
+    padding: 15px;
+    background-color: #24734b;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 18px;
+}
+
+nav a:hover {
+    color: #ffcf70;
+}
+
+.hero {
+    text-align: center;
+    padding: 75px 20px;
+    background-color: #f9dfb5;
+}
+
+.hero h2 {
+    font-size: 42px;
+    line-height: 1.2;
+    margin: 18px 0;
+}
+
+.hero p {
+    margin-bottom: 15px;
+}
+
+button {
+    background-color: #d45b2a;
+    color: white;
+    border: none;
+    padding: 11px 20px;
+    margin: 10px 5px;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #a63c1c;
+}
+
+.hero a {
+    display: block;
+    color: #24734b;
+    margin-top: 20px;
+    text-decoration: none;
+}
+
+.festivals {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.label {
+    color: #d45b2a;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.festivals h2, .culture h2, .traditions h2 {
+    font-size: 30px;
+    margin: 10px 0 25px;
+}
+
+input {
+    padding: 11px;
+    width: 220px;
+    border: 1px solid #c9b9a5;
+    border-radius: 5px;
+}
+
+.festival-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.festival {
+    background-color: white;
+    width: 280px;
+    margin: 12px;
+    padding-bottom: 20px;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.festival img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.festival h3 {
+    font-size: 23px;
+    margin: 5px;
+}
+
+.festival p {
+    margin: 8px 12px;
+}
+
+#message {
+    margin-top: 15px;
+    color: #24734b;
+}
+
+.culture {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 45px 8%;
+    background-color: #f4e6d4;
+}
+
+.culture div {
+    flex: 1;
+    min-width: 250px;
+    padding: 15px;
+}
+
+.culture img {
+    width: 45%;
+    min-width: 250px;
+    border-radius: 8px;
+}
+
+.traditions {
+    text-align: center;
+    padding: 45px 20px;
+}
+
+.traditions p {
+    margin: 10px;
+}
+
+footer {
+    text-align: center;
+    background-color: #24734b;
+    color: white;
+    padding: 25px;
+}
+
+footer h2 {
+    color: white;
+}
